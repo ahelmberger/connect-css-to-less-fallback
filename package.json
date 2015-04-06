@@ -1,0 +1,41 @@
+{
+  "name": "connect-css-to-less-fallback",
+  "version": "0.0.1",
+  "description": "Connect middleware providing a fallback for missing CSS files to corresponding LESS files",
+  "keyswords": [
+    "connect",
+    "express",
+    "middleware",
+    "fallback",
+    "css",
+    "less",
+    "lesscss"
+  ],
+  "engines": {
+    "node": ">=0.8"
+  },
+  "main": "lib/middleware.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahelmberger/connect-css-to-less-fallback.git"
+  },
+  "author": "Andreas Helmberger <public@ahelmberger.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-eslint": "^0.8.0",
+    "gulp-if": "^1.2.5",
+    "gulp-jasmine": "^2.0.1",
+    "gulp-load-plugins": "^0.9.0",
+    "jasmine-spec-reporter": "^2.1.0",
+    "run-sequence": "^1.0.2"
+  },
+  "dependencies": {
+    "cssesc": "^0.1.0",
+    "less": "^2.5.0"
+  }
+}
